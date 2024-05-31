@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(209, 44%, 69%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fbfcfb;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #5abbe4;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile .info {
+    flex: 1;
+}
+
+.profile h1 {
+    margin: 10px 0 0;
+}
+
+.profile h2 {
+    margin: 5px 0 20px;
+    color: #087fc4;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #8fcce8;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #2eb3d4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.job ul {
+    margin-top: 10px;
+}
+
+.experiences-divider {
+    border-left: 2px solid #77b9d3; /* Đường viền mảnh để chia */
+    height: 100%; /* Chia cùng chiều cao với phần nội dung */
+    margin-left: 20px; /* Khoảng cách giữa đường kẻ và nội dung */
+}
